@@ -1,4 +1,4 @@
-name: build-main
+name: build-main-ci
 
 on:
   workflow_dispatch:
