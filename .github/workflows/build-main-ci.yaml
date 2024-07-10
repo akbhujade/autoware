@@ -9,7 +9,7 @@ jobs:
 
   build-main:
     needs: load-env
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     container: ${{ needs.load-env.outputs.base-image }}
     steps:
       - name: Check out repository
